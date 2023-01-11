@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.app-li-container {
+  list-style-type: none;
+  margin: 10px;
+}
+.app-card-item {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 150px;
+}
+.app-img-style {
+  width: 50%;
+}
+
+@media screen and (min-width: 998px) {
+  .app-card-item {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 150px;
+  }
+}

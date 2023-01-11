@@ -1,0 +1,102 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  font-family: Bree Serif;
+  min-height: 100vh;
+}
+.search-container {
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  border: 1px solid #7b8794;
+  background-color: #dfe2e500;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading-container {
+  text-align: center;
+}
+.heading-container h1 {
+  color: #1e293b;
+}
+.search-style {
+  width: 30px;
+}
+input {
+  padding: 10px;
+  border: none;
+  background-color: #dfe2e500;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #dfe2e500;
+  width: 250px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #7b879444;
+}
+.app-container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 998px) {
+  .heading-container h1 {
+    color: #1e293b;
+    font-size: 50px;
+  }
+  .app-container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .search-container {
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    border: 1px solid #7b8794;
+    background-color: #dfe2e500;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tab-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #dfe2e500;
+    width: 350px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #7b879444;
+    margin-bottom: 10px;
+  }
+  .input {
+    padding: 10px;
+    border: none;
+    background-color: #dfe2e500;
+    border-radius: 8px;
+    flex-grow: 1;
+  }
+}
